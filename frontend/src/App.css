@@ -198,7 +198,7 @@ h1 span {
 
 .intro {
   max-width: 540px;
-  margin: 17px 0 32px;
+  margin: 17px auto 32px;
   color: #737b71;
   font-size: 14px;
   line-height: 1.8;
@@ -233,6 +233,18 @@ h1 span {
 
 .card-heading h2 {
   color: #20251f;
+}
+
+.card-heading {
+  position: relative;
+  justify-content: center;
+}
+
+.card-heading .card-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 .card-icon {
