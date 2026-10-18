@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+dist/
+coverage/
+*.log
+
+# Environment files
+.env.*
+!.env.example
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local test projects and archives
+sample-project/
+sample-project.zip
+accuracy-test/
+accuracy-test.zip
+accuracy-test-v2.zip
